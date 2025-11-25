@@ -57,7 +57,7 @@ export function PonudeModal({ kuće }: PonudeModalProps) {
         {/* Content */}
         <div className="p-6">
           <div className="flex justify-center mb-5">
-            <div className="relative h-24 w-52 p-4 bg-secondary/50 rounded-xl">
+            <div className="relative h-24 w-52 p-4 bg-black rounded-xl">
               <Image src={topKuća.logo || "/placeholder.svg"} alt={topKuća.naziv} fill className="object-contain" />
             </div>
           </div>

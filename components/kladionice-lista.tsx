@@ -14,8 +14,8 @@ export function KladioniceLista({ kuće }: KladionicaListaProps) {
   const [odabranaKuća, setOdabranaKuća] = useState<KladskaKuća | null>(null)
 
   return (
-    <section id="kladionice" className="py-4 ">
-      <div className="container mx-auto max-w-[1200px]">
+    <section id="kladionice" className="py-4 px-4">
+      <div className="container mx-auto max-w-[1250px]">
         {/* Section header */}
 
         {/* Cards */}

@@ -1,6 +1,7 @@
 "use client"
 
-import { Shield, Lock, UserCheck, AlertCircle, ChevronRight, Calendar } from "lucide-react"
+import { Lock, UserCheck, AlertCircle, Calendar } from "lucide-react"
+import Image from "next/image"
 
 export function HeroBanner() {
   const currentDate = new Date()
@@ -31,28 +32,27 @@ export function HeroBanner() {
             </p>
 
             {/* CTA Button */}
-            
           </div>
 
-          <div className="flex md:flex-col gap-3 md:gap-2 pt-3 md:pt-0 border-t md:border-t-0 md:border-l border-white/20 md:pl-8">
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-              <Shield className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-white">Licencirano</span>
+          <div className="grid grid-cols-2 md:flex md:flex-col gap-2 pt-3 md:pt-0 border-t md:border-t-0 md:border-l border-white/20 md:pl-8">
+            <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1.5 md:px-3 md:py-2">
+                <Image src="/flag.png" alt="Logo" width={24} height={24} />
+              <span className="text-xs md:text-sm font-medium text-white">Licencirano</span>
             </div>
 
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-              <Lock className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-white">Bezbednost</span>
+            <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1.5 md:px-3 md:py-2">
+              <Lock className="h-3.5 w-3.5 md:h-4 md:w-4 text-primary" />
+              <span className="text-xs md:text-sm font-medium text-white">Bezbednost</span>
             </div>
 
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-              <AlertCircle className="h-4 w-4 text-accent" />
-              <span className="text-sm font-medium text-white">18+</span>
+            <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1.5 md:px-3 md:py-2">
+              <AlertCircle className="h-3.5 w-3.5 md:h-4 md:w-4 text-accent" />
+              <span className="text-xs md:text-sm font-medium text-white">18+</span>
             </div>
 
-            <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
-              <UserCheck className="h-4 w-4 text-primary" />
-              <span className="text-sm font-medium text-white">Provereno</span>
+            <div className="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-lg px-2 py-1.5 md:px-3 md:py-2">
+              <UserCheck className="h-3.5 w-3.5 md:h-4 md:w-4 text-primary" />
+              <span className="text-xs md:text-sm font-medium text-white">Provereno</span>
             </div>
           </div>
         </div>
