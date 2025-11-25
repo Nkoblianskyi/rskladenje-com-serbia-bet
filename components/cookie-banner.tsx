@@ -34,7 +34,7 @@ export function CookieBanner() {
         {/* Header */}
         <div className="bg-gradient-to-r from-primary to-primary/80 px-5 py-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Cookie className="h-5 w-5 text-primary-foreground" />
+
             <span className="font-semibold text-primary-foreground">Politika Kolačića</span>
           </div>
           <button
