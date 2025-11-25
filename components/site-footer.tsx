@@ -30,11 +30,6 @@ export function SiteFooter() {
                   O Nama
                 </Link>
               </li>
-              <li>
-                <Link href="/metodologija" className="text-muted-foreground hover:text-primary transition-colors">
-                  Metodologija
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -53,11 +48,6 @@ export function SiteFooter() {
               <li>
                 <Link href="/politika-kolacica" className="text-muted-foreground hover:text-primary transition-colors">
                   Politika Kolačića
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
-                  Uslovi Korišćenja
                 </Link>
               </li>
             </ul>
