@@ -100,7 +100,7 @@ export function SiteFooter() {
                     src="/gamecare-new.svg"
                     alt="GamCare"
                     fill
-                    className="object-contain opacity-60 hover:opacity-100 transition-opacity"
+                    className="object-contain  hover:opacity-100 transition-opacity"
                   />
                 </div>
               </Link>
@@ -112,7 +112,7 @@ export function SiteFooter() {
                     src="/gamble-aware.webp"
                     alt="GambleAware"
                     fill
-                    className="object-contain opacity-60 hover:opacity-100 transition-opacity"
+                    className="object-contain  hover:opacity-100 transition-opacity"
                   />
                 </div>
               </Link>
@@ -124,7 +124,7 @@ export function SiteFooter() {
                     src="/logoS.svg"
                     alt="UIS"
                     fill
-                    className="object-contain opacity-60 hover:opacity-100 transition-opacity"
+                    className="object-contain  hover:opacity-100 transition-opacity"
                   />
                 </div>
               </Link>
